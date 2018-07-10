@@ -8,3 +8,4 @@
 
 Creating a Pipeline
 - A pipeline, in GoCD, is a representation of workflow or a part of a workflow. For instance, if you are trying to automatically run tests, build an installer and then deploy an application to a test environment, then those steps can be modeled as a pipeline.
+- Another equally important concept is that of a material. A material is a cause for a pipeline to "trigger" or to start doing what it is configured to do. Typically, a material is a source control repository (like Git, Subversion, etc)
